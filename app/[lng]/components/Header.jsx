@@ -37,7 +37,7 @@ function Header() {
             backgroundColor: "#23C50",
             color: "#fff",
             minHeight: "70vh",
-            width: { xs: "100%", md: "80%" },
+            width: { xs: "100%", md: "90%" },
             margin: "auto",
             paddingBottom: "5rem",
           }}
@@ -72,7 +72,7 @@ function Header() {
             }}
           >
             <Image
-              src="https://addisababa.eotc.org.et/en/wp-content/uploads/eotc-logo-original-2.png"
+              src="https://addisababa.eotc.org.et/en/wp-content/uploads/middle-logo-264x300.png"
               alt=""
               width="600"
               height="400"
@@ -175,9 +175,9 @@ function Header() {
 
       {/* ========== */}
 
-      <Grid container spacing={2} sx={{ width: "80%", alignSelf: "center"}}>
-        {[0, 1, 2, 3, 4, 5].map((item, index) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={index} sx={{ p:3}}>
+      <Grid container spacing={2} sx={{ width: "90%", alignSelf: "center" }}>
+        {[0, 1, 2, 3, 4, 5, 5, 7].map((item, index) => (
+          <Grid item xs={12} sm={6} md={4} lg={3} key={index} sx={{ p: 3, alignItems: "center" }}>
             <CourseCard />
           </Grid>
         ))}
