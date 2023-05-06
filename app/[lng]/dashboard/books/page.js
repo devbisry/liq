@@ -1,7 +1,7 @@
 "use client";
 
 import { Box, Button, Container, Grid } from "@mui/material";
-import BookCard from "./components/bookCard";
+import BookCard from "../../books/components/bookCard";
 
 const books = [
   {
