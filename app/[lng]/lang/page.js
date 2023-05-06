@@ -38,15 +38,15 @@ export default async function Page({ params: { lng } }) {
         </div>
         <hr style={{ marginTop: 20, width: '90%' }} />
         <div>
-          <Link href={`/${lng}/second-page`}>
+          <Link href={`/${lng}/lang/second-page`}>
             <button type="button">{t('to-second-page')}</button>
           </Link>
-          <Link href={`/${lng}/client-page`}>
+          <Link href={`/${lng}/lang/client-page`}>
             <button type="button">{t('to-client-page')}</button>
           </Link>
         </div>
       </main>
-      <Footer lng={lng}/>
+      <Footer lng={lng} path="/lang" />
     </>
   )
 }

@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { useTranslation } from '../../i18n'
+import { useTranslation } from '../../../i18n'
 import { Header } from '../components/Header'
 import { Footer } from '../components/Footer'
 
@@ -20,7 +20,7 @@ export default async function Page({ params: { lng } }) {
           </button>
         </Link>
       </main>
-      <Footer lng={lng} path="/second-page" />
+      <Footer lng={lng} path="/lang/second-page" />
     </>
   )
 }

@@ -44,17 +44,20 @@ export default function MultiActionAreaCard() {
         <CardMedia
           component="img"
           height="240"
-          image="https://addisababa.eotc.org.et/en/wp-content/uploads/eotc-logo-original-2.png"
+          image="/android-chrome-512x512.png"
           alt="green iguana"
         />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div" fontWeight="bold">
+        <CardContent >
+          <Typography
+            gutterBottom
+            variant="h5"
+            component="div"
+            fontWeight="bold"
+          >
             ሥርዓተ ቤተ ክርስቲያን
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            ሥርዓት የሃይማኖት መገለጫ ነው። ጥምቀት፣ ቁርባን፣ ጾም፣ ጸሎት፣ ሥግደት፣ ወዘተ በማመን ብቻ የሚያበቁ
-            ሳይሆን የአፈጻጸምና አተገባበር መንገድ /ሥርዓት/ ያስፈልጋቸዋል። የእነዚህ ሁሉ ዝርዝር አፈጻጸም በሥርዓት
-            ውስጥ ይካተታል።
+            ሥርዓት የሃይማኖት መገለጫ ነው። ጥምቀት፣ ቁርባን፣ ጾም፣ ጸሎት፣ ሥግደት፣ ወዘተ...
           </Typography>
         </CardContent>
       </CardActionArea>
