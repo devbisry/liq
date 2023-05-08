@@ -4,9 +4,9 @@ module.exports = {
   // reactStrictMode: true,
   env: {
     // HOST
-    HOST_API_KEY: 'https://api-dev-minimal-v4.vercel.app',
+    HOST_API_KEY: '',
     DEV_API: '',
-    PRODUCTION_API: 'https://api-dev-minimal-v4.vercel.app',
+    PRODUCTION_API: '',
   },
   images: {
     remotePatterns: [

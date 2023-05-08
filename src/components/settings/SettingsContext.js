@@ -73,7 +73,7 @@ export function SettingsProvider({ children }) {
   }, [isArabic]);
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (storageAvailable) {
       const mode = getCookie('themeMode') || defaultSettings.themeMode;
       const layout = getCookie('themeLayout') || defaultSettings.themeLayout;
       const stretch = getCookie('themeStretch') || defaultSettings.themeStretch;
@@ -88,7 +88,7 @@ export function SettingsProvider({ children }) {
       setThemeDirection(direction);
       setThemeColorPresets(colorPresets);
     }
-  }, []);
+  }, [storageAvailable]);
 
   // Mode
 

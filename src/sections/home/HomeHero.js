@@ -265,7 +265,7 @@ function Content() {
         //   transition={transition}
           alt={`hero_${isLight ? 'light' : 'dark'}_2`}
           src="https://addisababa.eotc.org.et/en/wp-content/uploads/middle-logo-264x300.png"
-          width="100%"
+          width="70%"
 
           //   src={`/assets/images/home/hero_${isLight ? 'light' : 'dark'}_2.png`}
           sx={{ position: 'absolute' }}
@@ -276,7 +276,7 @@ function Content() {
         //   transition={transition}
           alt={`hero_${isLight ? 'light' : 'dark'}_2`}
           src="https://addisababa.eotc.org.et/en/wp-content/uploads/middle-logo-264x300.png"
-          width="100%"
+          width="70%"
 
         //   src={`/assets/images/home/hero_${isLight ? 'light' : 'dark'}_2.png`}
           sx={{ position: 'absolute' }}
