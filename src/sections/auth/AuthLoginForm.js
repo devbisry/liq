@@ -25,7 +25,7 @@ export default function AuthLoginForm() {
   });
 
   const defaultValues = {
-    email: 'demo@minimals.cc',
+    email: 'dev@bisrat.tech',
     password: 'demo1234',
   };
 

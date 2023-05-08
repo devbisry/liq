@@ -20,11 +20,12 @@ const navConfig = [
   // GENERAL
   // ----------------------------------------------------------------------
   {
-    subheader: 'general v4.2.0',
+    subheader: 'general',
     items: [
-      { title: 'One', path: PATH_DASHBOARD.one, icon: ICONS.dashboard },
-      { title: 'Two', path: PATH_DASHBOARD.two, icon: ICONS.ecommerce },
-      { title: 'Three', path: PATH_DASHBOARD.three, icon: ICONS.analytics },
+      { title: 'App', path: PATH_DASHBOARD.app, icon: ICONS.dashboard },
+      { title: 'Books', path: PATH_DASHBOARD.books, icon: ICONS.ecommerce },
+      { title: 'Courses', path: PATH_DASHBOARD.courses, icon: ICONS.analytics },
+      { title: 'Blogs', path: PATH_DASHBOARD.blogs, icon: ICONS.user },
     ],
   },
 
@@ -35,6 +36,7 @@ const navConfig = [
     items: [
       {
         title: 'user',
+        // roles: ['admin'],
         path: PATH_DASHBOARD.user.root,
         icon: ICONS.user,
         children: [

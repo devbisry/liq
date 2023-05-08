@@ -1,5 +1,5 @@
 // @mui
-import { enUS, frFR, zhCN, viVN, arSA } from '@mui/material/locale';
+import { enUS, frFR, zhCN, viVN, arSA, amET, aoET } from '@mui/material/locale';
 
 // PLEASE REMOVE `LOCAL STORAGE` WHEN YOU CHANGE SETTINGS.
 // ----------------------------------------------------------------------
@@ -10,6 +10,18 @@ export const allLangs = [
     value: 'en',
     systemValue: enUS,
     icon: '/assets/icons/flags/ic_flag_en.svg',
+  },
+  {
+    label: 'Amharic',
+    value: 'am',
+    systemValue: amET,
+    icon: '/assets/icons/flags/Flag_of_Ethiopia.svg.png',
+  },
+  {
+    label: 'Afaan Oromo',
+    value: 'ao',
+    systemValue: aoET,
+    icon: '/assets/icons/flags/ethiopia.svg',
   },
   {
     label: 'French',
